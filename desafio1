@@ -1,0 +1,169 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   
+<title>login</title>
+
+
+   
+<style>
+       
+body {
+      
+font-family:
+'Times New Roman', Times, serif,
+sans-serif;
+           
+background-color:
+#080808;
+           
+margin:
+3;          
+padding:
+6;          
+display:
+flex;
+justify-content:
+center;
+           
+align-items:
+center;
+           
+height:
+100vh;
+        }
+
+
+       
+.login-container {
+           
+background-color:
+#968e8e;
+padding:
+20px;
+border-radius:
+5px;          
+box-shadow:
+0
+0
+10px
+rgba(252, 2, 2, 0.1);         
+width:
+300px;
+        }    
+
+
+
+.login-container
+h2 {
+           
+text-align:
+center;
+        }
+
+
+
+
+       
+
+
+
+       
+
+.login-container
+button {       
+width:
+100%;
+padding:
+17px;
+background-color:
+#0bd14a;
+color:
+#fff;
+border:
+none;
+border-radius:
+3px;
+cursor:
+pointer;
+        }
+
+.inputlogin{
+    width: 100%;
+    height: 30px;
+}
+
+.inputsenha{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+label{
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+
+.login-container
+button:hover {
+
+background-color:
+#6b7683;
+        }
+
+
+
+.login-container
+p {          
+margin-top:
+80px;
+text-align:
+center;
+width: 100%;
+        }
+   
+</style>
+</head>
+<body>
+
+
+<div
+class="login-container">
+
+
+<center>
+<img src="logo.jpg"
+width  = "70"  height = "70">
+</center>
+<br>
+<form
+action="#">
+    <br>   
+    <label for="">Login: </label>
+<input
+type="text"
+placeholder="login"
+required class="inputlogin">
+
+<label for="">Senha: </label>
+       
+<input
+type="password"
+placeholder="senha"
+required class="inputsenha">
+       
+<button
+type="submit">entre</button>
+   
+</form>
+
+
+
+</div>  
